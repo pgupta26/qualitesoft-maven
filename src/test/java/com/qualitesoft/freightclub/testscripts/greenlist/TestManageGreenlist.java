@@ -1,13 +1,13 @@
-package com.qualitesoft.freightclub.testscripts.greenlist;
+package test.java.com.qualitesoft.freightclub.testscripts.greenlist;
 
 import org.testng.annotations.Test;
-import com.qualitesoft.core.InitializeTest;
 
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.GreenList;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.GreenList;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
 
 
 public class TestManageGreenlist extends InitializeTest {

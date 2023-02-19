@@ -1,14 +1,14 @@
-package com.qualitesoft.freightclub.testscripts.customorders;
+package test.java.com.qualitesoft.freightclub.testscripts.customorders;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TestCustomPopupNotPresent extends InitializeTest {
 

@@ -1,16 +1,16 @@
-package com.qualitesoft.freightclub.testscripts.quickquote;
+package test.java.com.qualitesoft.freightclub.testscripts.quickquote;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.appcommon.CommonOps;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.appcommon.CommonOps;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TestQuickQuote extends InitializeTest {
 	

@@ -1,11 +1,11 @@
-package com.qualitesoft.freightclub.testscripts.quickquote;
+package test.java.com.qualitesoft.freightclub.testscripts.quickquote;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
 
 public class TestFCTestCarriersNotVisible extends InitializeTest {
 	

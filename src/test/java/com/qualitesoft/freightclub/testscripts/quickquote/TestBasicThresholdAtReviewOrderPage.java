@@ -1,13 +1,13 @@
-package com.qualitesoft.freightclub.testscripts.quickquote;
+package test.java.com.qualitesoft.freightclub.testscripts.quickquote;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.appcommon.CommonOps;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.appcommon.CommonOps;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TestBasicThresholdAtReviewOrderPage extends InitializeTest {
 	

@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.testscripts.manageorders;
+package test.java.com.qualitesoft.freightclub.testscripts.manageorders;
 
 import java.io.IOException;
 
@@ -6,12 +6,12 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.JavaFunction;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.JavaFunction;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
 
 public class TestExportOrders extends InitializeTest
 {

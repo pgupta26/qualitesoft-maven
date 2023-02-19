@@ -1,14 +1,14 @@
-package com.qualitesoft.freightclub.testscripts.manageinvoices;
+package test.java.com.qualitesoft.freightclub.testscripts.manageinvoices;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.ManageInvoices;
-import com.qualitesoft.freightclub.pageobjects.OverageDetails;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageInvoices;
+import test.java.com.qualitesoft.freightclub.pageobjects.OverageDetails;
 
 public class TestRaiseDispute extends InitializeTest {
 	

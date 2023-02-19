@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.testscripts.customorders;
+package test.java.com.qualitesoft.freightclub.testscripts.customorders;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -11,15 +11,15 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
-import com.qualitesoft.freightclub.pageobjects.Admin.ManageOrderNotQuotedTab;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.freightclub.pageobjects.Admin.ManageOrderNotQuotedTab;
 
 
 public class TestSubmitCustomQuoteAsAdmin extends InitializeTest {

@@ -1,19 +1,18 @@
-package com.qualitesoft.freightclub.testscripts;
+package test.java.com.qualitesoft.freightclub.testscripts;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.BillOfLadingPage;
-import com.qualitesoft.freightclub.pageobjects.ManageClaims;
-import com.qualitesoft.freightclub.pageobjects.ManageInvoices;
-import com.qualitesoft.freightclub.pageobjects.ManageLocations;
-import com.qualitesoft.freightclub.pageobjects.ManageOverages;
-import com.qualitesoft.freightclub.pageobjects.ManageProducts;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.BillOfLadingPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageClaims;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageInvoices;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageLocations;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageOverages;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageProducts;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TempTest extends InitializeTest {
 	

@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.testscripts.managedefaults;
+package test.java.com.qualitesoft.freightclub.testscripts.managedefaults;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,11 +8,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
-import com.qualitesoft.core.InitializeTest;
 
 import main.java.models.managedefaults.ManageDefaults;
-import com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
-import com.qualitesoft.freightclub.testscripts.World;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
+import test.java.com.qualitesoft.freightclub.testscripts.World;
 
 public class TestDefaultFieldValuesAtManageDefaultsScreen extends InitializeTest {
 	

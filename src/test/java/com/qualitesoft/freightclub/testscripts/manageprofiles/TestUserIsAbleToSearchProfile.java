@@ -1,14 +1,14 @@
-package com.qualitesoft.freightclub.testscripts.manageprofiles;
+package test.java.com.qualitesoft.freightclub.testscripts.manageprofiles;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.ProfileManagementPage;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.ProfileManagementPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
 
 public class TestUserIsAbleToSearchProfile extends InitializeTest {
 

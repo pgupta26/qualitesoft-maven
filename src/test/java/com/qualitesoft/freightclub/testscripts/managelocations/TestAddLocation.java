@@ -1,16 +1,16 @@
-package com.qualitesoft.freightclub.testscripts.managelocations;
+package test.java.com.qualitesoft.freightclub.testscripts.managelocations;
 
 import java.util.HashMap;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.ManageLocations;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageLocations;
 
 public class TestAddLocation extends InitializeTest {
 	private HashMap<String, String> map;

@@ -1,4 +1,4 @@
-package com.qualitesoft.core;
+package test.java.com.qualitesoft.core;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

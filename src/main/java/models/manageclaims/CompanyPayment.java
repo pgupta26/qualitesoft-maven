@@ -1,4 +1,4 @@
-package models.manageclaims;
+package main.java.models.manageclaims;
 
 import lombok.*;
 

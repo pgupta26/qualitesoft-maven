@@ -1,4 +1,4 @@
-package com.qualitesoft.core;
+package test.java.com.qualitesoft.core;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

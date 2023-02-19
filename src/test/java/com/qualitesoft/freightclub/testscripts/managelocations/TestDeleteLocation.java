@@ -1,15 +1,15 @@
-package com.qualitesoft.freightclub.testscripts.managelocations;
+package test.java.com.qualitesoft.freightclub.testscripts.managelocations;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.ManageLocations;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageLocations;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
 
 public class TestDeleteLocation extends InitializeTest {
 	

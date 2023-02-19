@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.testscripts.managebilling;
+package test.java.com.qualitesoft.freightclub.testscripts.managebilling;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,12 +14,12 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.appcommon.CommonOps;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
-import com.qualitesoft.freightclub.pageobjects.Admin.ManageBillingPage;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.appcommon.CommonOps;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.Admin.ManageBillingPage;
 
 public class TestBillOnListing extends InitializeTest{
 

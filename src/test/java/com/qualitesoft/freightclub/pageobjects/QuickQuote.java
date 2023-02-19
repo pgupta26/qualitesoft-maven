@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.pageobjects;
+package test.java.com.qualitesoft.freightclub.pageobjects;
 
 
 import java.text.DateFormatSymbols;
@@ -10,12 +10,12 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.qualitesoft.core.JavaFunction;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.JavaFunction;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.WaitTool;
 
 
 public class QuickQuote {

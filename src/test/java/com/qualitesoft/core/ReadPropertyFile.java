@@ -1,4 +1,4 @@
-package com.qualitesoft.core;
+package test.java.com.qualitesoft.core;
 
 import java.io.File;
 import java.io.FileInputStream;

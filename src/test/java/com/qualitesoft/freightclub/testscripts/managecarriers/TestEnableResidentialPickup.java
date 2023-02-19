@@ -1,15 +1,15 @@
-package com.qualitesoft.freightclub.testscripts.managecarriers;
+package test.java.com.qualitesoft.freightclub.testscripts.managecarriers;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.ManageCarrierPage;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageCarrierPage;
 
 public class TestEnableResidentialPickup extends InitializeTest {
 

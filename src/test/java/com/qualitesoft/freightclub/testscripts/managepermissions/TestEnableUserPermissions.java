@@ -1,12 +1,12 @@
-package com.qualitesoft.freightclub.testscripts.managepermissions;
+package test.java.com.qualitesoft.freightclub.testscripts.managepermissions;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.ManagePermissions;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagePermissions;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TestEnableUserPermissions extends InitializeTest {
 	

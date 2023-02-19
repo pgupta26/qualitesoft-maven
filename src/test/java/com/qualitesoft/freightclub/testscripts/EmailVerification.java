@@ -1,25 +1,26 @@
-package com.qualitesoft.freightclub.testscripts;
+package test.java.com.qualitesoft.freightclub.testscripts;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.appcommon.Messages;
-import com.qualitesoft.freightclub.pageobjects.Mailinator;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.appcommon.Messages;
+import test.java.com.qualitesoft.freightclub.pageobjects.Mailinator;
+
 
 public class EmailVerification extends InitializeTest {
 	
 	public void verifyEmailBody(String expectedEmailBody) {
 		WaitTool.sleep(3);
 		String actualMessage = driver.findElement(By.tagName("body")).getText().replaceAll("[\\t\\n\\r]+"," ");
-		actualMessage = actualMessage.replace("“", "").replace("”", "");
+		actualMessage = actualMessage.replace("â€œ", "").replace("â€�", "");
 		UseAssert.assertEquals(actualMessage, expectedEmailBody);
 	}
 	

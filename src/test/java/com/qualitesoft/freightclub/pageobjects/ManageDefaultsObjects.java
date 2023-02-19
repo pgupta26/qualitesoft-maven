@@ -1,25 +1,17 @@
-package com.qualitesoft.freightclub.pageobjects;
-
-import java.util.List;
+package test.java.com.qualitesoft.freightclub.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.appcommon.CommonOps;
-import com.qualitesoft.freightclub.testscripts.World;
-
-import models.managedefaults.ManageDefaults;
+import main.java.models.managedefaults.ManageDefaults;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.appcommon.CommonOps;
+import test.java.com.qualitesoft.freightclub.testscripts.World;
 
 public class ManageDefaultsObjects {
 

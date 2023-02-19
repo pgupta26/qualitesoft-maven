@@ -1,10 +1,9 @@
-package com.qualitesoft.freightclub.testscripts.managedefaults;
+package test.java.com.qualitesoft.freightclub.testscripts.managedefaults;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
 
 public class TestValidationDefaultFieldsValuesOfManageDefaultScreen extends InitializeTest {
 	

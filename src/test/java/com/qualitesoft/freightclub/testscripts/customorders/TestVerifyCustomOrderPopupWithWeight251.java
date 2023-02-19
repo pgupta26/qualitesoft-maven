@@ -1,13 +1,13 @@
-package com.qualitesoft.freightclub.testscripts.customorders;
+package test.java.com.qualitesoft.freightclub.testscripts.customorders;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.freightclub.pageobjects.QuickQuote;
-import com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class TestVerifyCustomOrderPopupWithWeight251 extends InitializeTest {
 

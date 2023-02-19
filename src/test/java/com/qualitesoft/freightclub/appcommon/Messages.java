@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.appcommon;
+package test.java.com.qualitesoft.freightclub.appcommon;
 
 public class Messages {
 	

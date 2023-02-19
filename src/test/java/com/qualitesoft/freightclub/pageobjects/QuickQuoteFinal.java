@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.pageobjects;
+package test.java.com.qualitesoft.freightclub.pageobjects;
 
 import java.util.List;
 
@@ -9,12 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.JavaFunction;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.JavaFunction;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
 
 
 public class QuickQuoteFinal {

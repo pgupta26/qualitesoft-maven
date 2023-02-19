@@ -1,13 +1,13 @@
-package com.qualitesoft.freightclub.testscripts.billoflading;
+package test.java.com.qualitesoft.freightclub.testscripts.billoflading;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.UseAssert;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.freightclub.pageobjects.BillOfLadingPage;
-import com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.UseAssert;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.freightclub.pageobjects.BillOfLadingPage;
+import test.java.com.qualitesoft.freightclub.pageobjects.ManagerOrderPage;
 
 public class TestPaginationOnBol extends InitializeTest{
 

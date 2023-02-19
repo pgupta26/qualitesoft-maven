@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.pageobjects;
+package test.java.com.qualitesoft.freightclub.pageobjects;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.WaitTool;
 
 public class ManageInvoices {
 	

@@ -1,11 +1,11 @@
-package com.qualitesoft.freightclub.testscripts.bulkorders;
+package test.java.com.qualitesoft.freightclub.testscripts.bulkorders;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.freightclub.pageobjects.BulkOrdersPage;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.freightclub.pageobjects.BulkOrdersPage;
 
 public class TestDownloadLabelsAndBOL extends InitializeTest {
 	

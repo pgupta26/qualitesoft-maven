@@ -1,10 +1,10 @@
-package com.qualitesoft.freightclub.testscripts.signup;
+package test.java.com.qualitesoft.freightclub.testscripts.signup;
 
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.WaitTool;
 
 
 public class TestLaunchQuickQuote extends InitializeTest {

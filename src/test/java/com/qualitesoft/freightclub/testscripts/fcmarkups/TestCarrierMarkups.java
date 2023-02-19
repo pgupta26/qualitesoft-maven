@@ -1,4 +1,4 @@
-package com.qualitesoft.freightclub.testscripts.fcmarkups;
+package test.java.com.qualitesoft.freightclub.testscripts.fcmarkups;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qualitesoft.core.InitializeTest;
-import com.qualitesoft.core.Log;
-import com.qualitesoft.core.ScreenShot;
-import com.qualitesoft.core.SeleniumFunction;
-import com.qualitesoft.core.WaitTool;
-import com.qualitesoft.core.Xls_Reader;
-import com.qualitesoft.freightclub.pageobjects.HomePage;
-import com.qualitesoft.freightclub.pageobjects.CarrierMarkups;
+import test.java.com.qualitesoft.core.InitializeTest;
+import test.java.com.qualitesoft.core.Log;
+import test.java.com.qualitesoft.core.ScreenShot;
+import test.java.com.qualitesoft.core.SeleniumFunction;
+import test.java.com.qualitesoft.core.WaitTool;
+import test.java.com.qualitesoft.core.Xls_Reader;
+import test.java.com.qualitesoft.freightclub.pageobjects.CarrierMarkups;
+import test.java.com.qualitesoft.freightclub.pageobjects.HomePage;
 
 public class TestCarrierMarkups extends InitializeTest{
 	
