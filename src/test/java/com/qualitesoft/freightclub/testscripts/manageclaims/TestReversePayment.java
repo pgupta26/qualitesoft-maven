@@ -24,7 +24,7 @@ import test.java.com.qualitesoft.freightclub.pageobjects.ManageOverages;
 import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuote;
 import test.java.com.qualitesoft.freightclub.pageobjects.Admin.ManageBillingPage;
 import test.java.com.qualitesoft.freightclub.testscripts.TestLogOff;
-import test.java.com.qualitesoft.freightclub.testscripts.TestSignIn;
+import com.qualitesoft.freightclub.testscripts.TestSignIn;
 
 public class TestReversePayment extends InitializeTest {
 	

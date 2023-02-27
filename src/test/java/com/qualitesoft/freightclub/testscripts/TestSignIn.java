@@ -1,4 +1,4 @@
-package test.java.com.qualitesoft.freightclub.testscripts;
+package com.qualitesoft.freightclub.testscripts;
 
 import org.testng.annotations.Test;
 

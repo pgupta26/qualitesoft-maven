@@ -5,7 +5,7 @@
 	"defaultLTLPickupLocation": "",
 	"defaultDropoffLocationType": "Residential",
 	"defaultDropoffLocation": "",
-	"defaultPickupWindow": ""
+	"defaultPickupWindow": "",
 	"defaultSpecialInstructions": "",
 	"defaultLandingPage": "Welcome Page",
 	"defaultLabelFileName": "Freight Club Order ID",

@@ -1,4 +1,4 @@
-package test.java.com.qualitesoft.freightclub.testscripts.managedefaults;
+package com.qualitesoft.freightclub.testscripts.managedefaults;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
 
-import main.java.models.managedefaults.ManageDefaults;
+import models.managedefaults.ManageDefaults;
 import test.java.com.qualitesoft.core.InitializeTest;
-import test.java.com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
+import com.qualitesoft.freightclub.pageobjects.ManageDefaultsObjects;
 
 public class TestUpdateManageDefaultsFields extends InitializeTest {
 	

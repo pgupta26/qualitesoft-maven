@@ -1,4 +1,4 @@
-package main.java.models.managedefaults;
+package models.managedefaults;
 
 import lombok.*;
 

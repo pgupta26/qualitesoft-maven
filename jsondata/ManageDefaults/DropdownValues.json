@@ -1,0 +1,13 @@
+{
+  "LTLServiceLevelOptions" : "Back Of Truck (No Liftgate) - One man delivery - Customer to remove shipment from truck\nCurbside (Liftgate) - One man delivery - Carrier will lower shipment to the ground\nThreshold - First Dry Area (Garage/Covered Porch) *Not Inside Delivery\nRoom of Choice - 1-2 man Delivery (depending on weight) delivery to a designated room of your choice (up to 2 staircases)\nWhite Glove - Packaging Removal - 1-2 man Delivery (depending on weight) to a designated room of your choice (up to 2 staircases) + Package Removal\nWhite Glove - Light Assembly - Delivery to a designed room of choice (up to 2 staircases) + Packaging Removal + Basic tool assembly up to 30 mins (Recommended for pre-assembled goods, not for ready to assemble products such as Cribs or Beds etc. Assembly instructions may be requested upon booking.)",
+  "pickupLocationTypeOptions" : "Residential\nCommercial",
+  "parcelPickupLocationOptions" : "NY Warehose (9960 East Hillside)\nJAMAICA, NY 11435\n4170 Still Creek Dr (4170 Still Creek Dr)\nNew York, NY 10001\nAutoCom (address line1)\nLOS ANGELES, CA 90001\ncompany11oct (add1)\nNY, NY 02535",
+  "LTLPickupLocationOptions" : "NY Warehose (9960 East Hillside)\nJAMAICA, NY 11435\n4170 Still Creek Dr (4170 Still Creek Dr)\nNew York, NY 10001\nAutoCom (address line1)\nLOS ANGELES, CA 90001\ncompany11oct (add1)\nNY, NY 02535",
+  "drop_offLocationTypeOptions" : "Residential\nCommercial",
+  "drop_offLocationOptions" : "Residential\nCommercial",
+  "pickupWindowOptions" : "Today\nNext Day\n2 Days\nNext Friday\nNext Monday",
+  "defaultLandingPage" : "Welcome Page\nQuick Quote\nManage Orders - Booked\nManage Orders - Open Orders\nManage Orders - Not Quoted\nBill of Lading / Labels\nManage Invoices",
+  "labelFileNameOptions" : "Freight Club Order ID\nCustomer PO\nFreight Club OrderID - Customer PO Number\nCarrier Tracking Number\nCarrier Waybill Number",
+  "preferredTrackingViewOptions" : "Freight Club\nCarrier Website",
+  "contactPhoneNumberTypeOptions" : "Carrier's Customer Service\nUser Supplied Number"
+}

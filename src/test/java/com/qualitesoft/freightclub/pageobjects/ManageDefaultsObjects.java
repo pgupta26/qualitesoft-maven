@@ -1,4 +1,4 @@
-package test.java.com.qualitesoft.freightclub.pageobjects;
+package com.qualitesoft.freightclub.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -6,12 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import main.java.models.managedefaults.ManageDefaults;
+import models.managedefaults.ManageDefaults;
 import test.java.com.qualitesoft.core.SeleniumFunction;
 import test.java.com.qualitesoft.core.WaitTool;
 import test.java.com.qualitesoft.core.Xls_Reader;
 import test.java.com.qualitesoft.freightclub.appcommon.CommonOps;
-import test.java.com.qualitesoft.freightclub.testscripts.World;
+import com.qualitesoft.freightclub.testscripts.World;
+import test.java.com.qualitesoft.freightclub.pageobjects.QuickQuoteFinal;
 
 public class ManageDefaultsObjects {
 
@@ -45,7 +46,7 @@ public class ManageDefaultsObjects {
 			WaitTool.sleep(1);
 			SeleniumFunction.click(WaitTool.waitForElementPresentAndDisplay(driver, By.xpath("//label[text()='"+fieldName+"']/following-sibling::div[contains(@class,'form-input single')]/descendant::*[contains(text(),'"+value+"')]"), 30));
 		}catch(Exception ex) {
-			System.out.println("dfjsdkfjsdfl");
+			System.out.println(ex.getMessage());
 		}
 		
 	}
@@ -160,6 +161,11 @@ public class ManageDefaultsObjects {
 		WaitTool.sleep(10);
 
 		commonOps.bookOrder(xr, i);
-
+	}
+	public String getDropdownOptionsText(String fieldLabel) {
+		WebElement dropdownOption = WaitTool.waitForElementPresentAndDisplay(driver, By.xpath("//label[contains(text(),'"+fieldLabel+"')]//parent::div//div[contains(@class,'selectize-input items')]"), 20);
+		SeleniumFunction.clickJS(driver, dropdownOption);
+		WebElement dropdownOptions = WaitTool.waitForElementPresentAndDisplay(driver, By.xpath("//label[contains(text(),'"+fieldLabel+"')]//parent::div//div[contains(@class,'selectize-dropdown-content')]"), 20);
+		return SeleniumFunction.getText(dropdownOptions);
 	}
 }

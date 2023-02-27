@@ -5,7 +5,6 @@
 
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		
 	</listeners>
 
 	<parameter name="project" value="FreightClub" />
@@ -17,9 +16,10 @@
 	<test name="Temp Run">
 		<parameter name="fcusername" value="prodsh11oct@mailinator.com" />
 		<parameter name="fcpassword" value="@Test123" />
+		<parameter name="dataFile" value="ManageDefaults/DropdownValues.json"></parameter>
 		<classes>
-			<class name="test.java.com.qualitesoft.freightclub.testscripts.TestSignIn" />
-			<class name="test.java.com.qualitesoft.freightclub.testscripts.TempTest" />
+			<class name="com.qualitesoft.freightclub.testscripts.TestSignIn" />
+			<class name="com.qualitesoft.freightclub.testscripts.managedefaults.TestAllDropdownFieldValues" />
 		</classes>
 	</test>
 	
